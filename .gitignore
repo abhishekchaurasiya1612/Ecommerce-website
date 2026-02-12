@@ -1,0 +1,42 @@
+# Node modules
+**/node_modules
+
+# Environment files
+**/.env
+*.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac
+.DS_Store
+
+# Build
+frontend/build
+
+# OS files
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Lockfiles (optional)
+# package-lock.json
+# pnpm-lock.yaml
+
+# Coverage
+coverage/
+
+# Misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore generated sqlite db if any
+*.sqlite
