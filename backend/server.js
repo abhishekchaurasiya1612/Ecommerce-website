@@ -6,7 +6,7 @@ import { sequelize } from "./src/config/db.js";
 import "./src/models/index.js";   // Import relationships
 
 
-
+//testing
 
 const PORT = process.env.PORT || 8083;
 
