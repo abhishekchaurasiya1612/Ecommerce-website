@@ -13,7 +13,7 @@ function Register() {
       username,
       email,
       password,
-      role
+  role: 'user'
     });
 
     navigate("/login");
